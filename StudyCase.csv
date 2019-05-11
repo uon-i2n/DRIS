@@ -1,0 +1,8 @@
+Disaster Type,Severity Level,Resource,Unit,Value,Formulae description
+Flood,Low,Water,L/day,3059.675,= Pop * 2.5 L/person/day * factor(low)
+Flood,High,Water,L/day,183580.5,= Pop * 15 L/person/day * factor(high)
+Flood,High,Damaged Houses,units,244.774,= Pop * factor(High) / (5 person/home) * factor(Wage)
+Flood,High,Evacuated People,units,12238.7,= Pop * factor(High) * factor(Age)
+,,,,,
+,,,,,
+,,,,,
