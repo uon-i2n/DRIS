@@ -18,7 +18,7 @@ server <- function(input, output, sesssion) {
         urlTemplate = "//{s}.tiles.mapbox.com/v3/jcheng.map-5ebohr46/{z}/{x}/{y}.png",
         attribution = 'Maps by <a href="http://www.mapbox.com/">Mapbox</a>'
       ) %>%
-      addMarkers(~long, ~lat, popup = ~as.character(pop))
+      addCircleMarkers(~long, ~lat, popup = ~as.character(pop))
       #setView(lng = -93.85, lat = 37.45, zoom = 4)%>%
 # geom_point(data = df1[, c("long","lat", "pop")] , aes(x=long, y = lat), colour ="red", shape = ".")
   })

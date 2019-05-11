@@ -77,7 +77,7 @@ library(leaflet)
 
       # Registration of Supporting Points
       tabItem(tabName = "registration_supp_points",
-              h2("Registration of Disaster Support Hub"),
+              h2("Registration of DSH"),
               textInput("n1", label = "Disaster Support Point"),
               textInput("n2", label = "Address"),
               textInput("n3", label = "Item"),
